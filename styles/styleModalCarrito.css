@@ -1,0 +1,134 @@
+/* The Modal (background) */
+.modal-carrito {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    ; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    
+  }
+  
+  /* Modal Content */
+  .modal-content-carrito {
+    background-color: #fefefe;
+    margin-left: 60%;
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    
+  }
+  .btn-modal-carrito{
+      width: 30px;
+      height: 30px;
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+  }
+  .btn-modal-carrito > img{
+      width: 20px;
+  }
+  .span-close{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .span-close>p{
+      
+  }
+  /* The Close Button */
+  .close {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #aaaaaa;
+    
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .span-para-close{
+      width: 50%;
+      margin-right: 4%;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.datos-producto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-producto-carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+
+    width: 35%;
+}
+.info-producto-carrito >img {
+    width: 60px;
+}
+.nombre-precio-carrito{
+    display: flex;
+    flex-direction: column;
+    text-align: left;    
+}
+.nombre-precio-carrito > p{
+    font-size: 14px;
+}
+.precio-producto-carrito{
+    font-weight: 600;
+}
+.sumar-o-restar-carrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.sumar-o-restar-carrito > input {
+    width: 40px;
+    border: none;
+    background-color: white;
+    color: #000;
+    font-size: 20px;
+}
+.numero-unidad-peso{
+    border: 1px solid #969696;
+}
+.btns-modal-carrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.btn-limpiar {
+    background-color: white;
+    color: #bebebe;
+    border: none;
+}
+.btn-buscar-carrito {
+    background-color: #00c458;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 300px;
+    padding: 5px 15px;
+}

@@ -1,0 +1,95 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 40px;
+    width: 50%;
+    border-radius: 20px;
+    
+  }
+  .span-close{
+      margin: 10px 0px;
+      text-align: left;
+  }
+  /* The Close Button */
+  .close {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #aaaaaa;
+    margin-left: 93%;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.myBtn {
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-weight: 700;
+}
+
+.myBtn > img{
+    width: 25px;
+    margin: 10px;
+}
+.myBtn > p {
+    margin: 0px;
+}
+
+.select-city{
+    border-radius: 10px;
+    border: 1px solid rgb(165, 165, 165);
+    padding: 10px;
+    background-color: white;
+}
+
+.select-city > option {
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: #000;
+    width: 500px;
+}
+
+.select-city > option > img {
+    width: 50px;
+}
+
+.btn-buscar {
+    background-color: #00c458;
+    color: white;
+    margin: 20px 0px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}

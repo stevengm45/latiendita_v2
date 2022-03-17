@@ -1,0 +1,147 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    
+    background: linear-gradient(90deg, rgba(255,244,0,1) 0%, rgb(8, 251, 138) 100%);
+}
+
+.main{
+    margin: 40px;
+    background-color: white;
+    padding: 40px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.title-tiendita {
+    font-style: italic;
+    color: #ff4500;
+}
+.title-tiendita > h4 {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.carrito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ciudades{
+    margin-right: 10px;
+    padding: 0px 20px;
+    border-right: 1px solid gray;
+}
+.img-carrito {
+    width: 50px;
+    background-color: #00cf2a;
+    text-align: center;
+    margin-left: 10px;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+
+.img-carrito > img {
+    width: 25px;
+}
+
+.banner{
+    width: 100%;
+    background-image: url('../img/banner1.jpg');
+    height: 280px;
+    background-size: cover;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.text-banner{
+    border: none;
+    width: 100%;
+    height: 280px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(165, 42, 42, 0.363);
+}
+
+.contenedor-productos {
+    margin-left: 20px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ofertas{
+    font-weight: 500;
+    margin-left: 20px;
+}
+.list-group{
+flex-direction: row;
+border: none;
+
+}
+.li {
+    margin: 10px;
+    border: none;
+}
+.card {
+    margin: 20px;
+    border: none;
+}
+
+.dcto {
+    background-color: rgba(250, 96, 250, 0.192);
+    color: rgb(88, 1, 88);
+    border-radius: 20px;
+    width: 80px;
+    padding: 2px 5px;
+    font-weight: 700;
+}
+
+.img-product {
+    width: 200px;
+    height: 200px;
+}
+.img-product-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.precio-dcto {
+    display: flex;
+    flex-direction: row;
+}
+.precio-final {
+    font-weight: 900;
+    color: black;
+}
+.precio {
+    font-weight: 900;
+    color: rgb(160, 159, 159);
+    text-decoration: line-through;
+}
+
+.nombre-producto {
+    font-size: 14px;
+    height: 20px;
+}
+
+.btn-agregar{
+    background-color: #00c458;
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 6px;
+}

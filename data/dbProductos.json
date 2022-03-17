@@ -1,0 +1,11 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Aguacate Hass",
+            "precio": 69.9,
+            "img": "https://res.cloudinary.com/dainl1ric/image/upload/v1647407372/tiendita/aguacate-hass_z71vwc.jpg",
+            "cantidad": 1
+        }
+    ]
+}

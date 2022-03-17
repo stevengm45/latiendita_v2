@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/stylePagar.css">
+    <link rel="stylesheet" href="./styles/styleModalCarrito.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="volver">
+            <a href="./index.html"><img src="./img/simbolo-menor-que.png" alt="" width="60px" height="55px"></a>
+            <p>Volver</p>
+        </div>
+    </header>
+    <div class="main-pagar">
+        <div class="carrito-cargado">
+            <div class="datos-producto">
+                <div class="info-producto-carrito">
+                    <img src="./img/ubicacion.png" alt="">
+                    <div class="nombre-precio-carrito">
+                        <p>Aguacate Hass</p>
+                        <p class="precio-producto-carrito">$17.48</p>
+                    </div>
+                </div>
+                <div class="sumar-o-restar-carrito">
+                    <input type="button" value="-">
+                    <input type="text" class="numero-unidad-peso">
+                    <input type="button" value="+">
+                </div>
+            </div>
+        </div>
+        <div class="cuenta-bancaria">
+            <label class="label-info">Correo electronico</label>
+            <input type="email" name="" id="">
+
+            <label class="label-info">Información de la tarjeta</label>
+            <div class="datos-tarjeta-cliente">
+                <div class="numero-tarjeta">
+                    <input type="text" placeholder="1234 1234 1234 1234">
+                    <img src="./img/tarjetas.png" alt="">
+                </div>
+                <div class="fecha-tarjeta">
+                    <input type="text" placeholder="MM/YY">
+                    <input type="number" placeholder="CVC" class="cvc">
+                    <img src="./img/tarjetacodigo.png" alt="">
+                </div>  
+            </div>
+            <label class="label-info">Nombre de la tarjeta</label>
+            <input type="text" name="" id="" class="nombre-tarjeta">
+
+            <input type="button" value="Pagar" class="btn-pagar">
+        </div>
+    </div>
+    
+</body>
+</html>

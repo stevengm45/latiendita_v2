@@ -1,0 +1,97 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.main-pagar{
+    display: flex;
+    flex-direction: row;
+}
+.volver {
+    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a {
+    text-align: center;
+    background-color: rgb(22, 0, 0);
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 15px 20px 15px 30px;
+}
+.volver > img {
+    width: 60px;
+    height: 60px;
+}
+.carrito-cargado{
+    width: 50%;
+    margin: 10px 20px;
+    box-shadow: 0px 0px 2px 1px rgba(138, 138, 138, 0.295);
+    border-radius: 15px;
+}
+.cuenta-bancaria{
+    width: 40%;
+    padding: 10px 60px;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuenta-bancaria > input {
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.datos-tarjeta-cliente{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.numero-tarjeta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid lightgray;
+}
+::placeholder {
+    color: rgb(189, 188, 188);
+}
+.numero-tarjeta > input {
+    border: none;
+}
+.numero-tarjeta >img {
+    height: 30px;
+}
+.fecha-tarjeta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.fecha-tarjeta > input {
+    border: none;
+    width: 215px;
+}
+.fecha-tarjeta > img {
+    width: 35px;
+}
+.cvc {
+    border-left: 1px solid lightgray;
+}
+
+.label-info {
+    margin: 25px 0px 10px 0px;
+}
+.nombre-tarjeta {
+    margin-bottom: 30px;
+}
+.btn-pagar {
+    color: white;
+    font-weight: 600;
+    background-color: #00c458;
+    padding: 10px 0;
+    font-size: 18px;
+}
